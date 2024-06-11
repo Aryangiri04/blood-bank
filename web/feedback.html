@@ -1,0 +1,84 @@
+<html>
+<head>
+<link rel="stylesheet" href="abc.css">
+<style>
+    .A
+    {
+        display: block;
+    width: 100%;
+    background: #f6f6f6;
+    font-family: Montserrat;
+    font-size: 15px;
+    line-height: 1.5;
+    color: #111;
+    font-weight: 300;
+    }
+    .C
+    {
+    min-height:100px;
+padding: 12px 30px;
+border-radius: 25px;
+    }
+</style>
+<script type="text/javascript" src="feedback.js"></script>
+</head>
+<body>
+    
+    
+    
+<form action="feedback" name="form2">
+<!--<div id=mymenu>
+<ul>
+<li><a href="flightsearch.html">Home</a></li>
+ <li><a href="about.html">About</a></li>
+<li><a href="insert.html">Insert</a></li>
+<li><a href="search.html">Search</a></li>
+<li><a href="delete.html">Delete</a></li>
+<li><a href="showall">Showall</a></li>
+<li><a href="update.html">Update</a></li>
+<li><a href="flightsearch.html">FlightSearch</a></li>
+<li><a href="passengerdetails.html">Passenger Details</a></li>
+<li><a href="lg.html">LogOut</a></li>
+</ul>
+</div>-->
+<div id="mydata">
+<center>
+<table cellpadding="12">
+        <tr>
+        <th colspan="5" style="color:black "><h1>Feedback Form</h1></th>
+    </tr>
+  
+<tr>
+    <td>Name</td><br>
+<td><input type="text" placeholder="Enter Name" class="A" name="u1" id="t1">
+    <font id="s1"></font>   
+</td>
+</tr>
+
+<tr>
+<td>Mail-Id</td>
+<td><input type="email" placeholder="Enter Email" class="A" name="u2"></td><br>
+</tr>
+
+<tr>
+<td>Subject:</td>
+<td><input type="text" placeholder="Enter subject" class="A" name="u3" id="t2"><br>
+<font id="s2"></font>
+</td>
+</tr>
+
+<tr>
+    <td>Message:</td><br>
+<td><textarea type="text" placeholder="Enter Message" class="C" name="u4" id="t3"></textarea><br>
+<font id="s3"></font>    
+</td>
+<tr>
+    <th colspan="2"><button onclick="demo(event)" class="B" >SUBMIT</button></th>
+</tr>
+
+</table>
+</center>
+</div>
+</form>
+</body>
+</html>
